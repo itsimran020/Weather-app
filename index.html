@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h2 id="h1">Weather App</h2>
+      <div class="search">
+        <p>Search With Your City Name</p>
+        <input type="text" placeholder="Enter Your city name" id="input"  value="Dhanbad"/>
+        <i id="search" class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <img src="" id="img"/>
+      <div class="temp">
+        <h1>00℃</h1>
+        <p>City  Name</p>
+      </div>
+
+      <div class="sub-cards">
+        <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+          <p id="speed">00km/h</p>
+          <p>Wind</p>
+        </div>
+        <div class="humidity">
+          <i class="fa-solid fa-droplet" style="color: #74c0fc"></i>
+          <p id="humidity">00%</p>
+          <p>Humidity</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
