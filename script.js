@@ -47,16 +47,16 @@ const updateElements = (temperature, humidity, wind, name, weather) => {
   speed.innerHTML = `${wind} km/h`;
   humi.innerHTML = `${humidity} %`;
   if (weather == "Clear") {
-    img.src = "images/clear.png";
+    img.src = "url(https://github.com/itsimran020/Weather-app/blob/main/images/clear.png)";
   } else if (weather == "Clouds") {
-    img.src = "images/clouds.png";
+    img.src = "url(https://github.com/itsimran020/Weather-app/blob/main/images/clouds.png)";
   } else if (weather == "Drizzle") {
-    img.src = "images/drizzle.png";
+    img.src = "url(https://github.com/itsimran020/Weather-app/blob/main/images/drizzle.png)";
   } else if (weather == "Mist") {
-    img.src = "images/mist.png";
+    img.src = "url(https://github.com/itsimran020/Weather-app/blob/main/images/mist.png)";
   } else if (weather == "Rain") {
-    img.src = "images/rain.png";
+    img.src = "url(https://github.com/itsimran020/Weather-app/blob/main/images/rain.png)";
   } else if (weather == "Snow") {
-    img.src = "images/snow.png";
+    img.src = "url(https://github.com/itsimran020/Weather-app/blob/main/images/snow.png)";
   }
 };
